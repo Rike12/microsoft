@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION SECTION */
+body{
+    min-height: max-content;
+}
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 20px 0;
+    text-align: center;
+    width: 98%;
+    height: 60px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+    
+nav.logo{
+    height: 150px;
+    width: 150px;
+}
+nav.logo img{
+    width: 100%;
+    object-fit: contain;
+    margin-right: 12px;  
+}
+.menu{
+    width: 100%; 
+    height: 60px;
+    justify-content: space-around;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;  
+}
+.menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size:20px;  
+}
+.menu ul li a button{
+        color: black;
+       font-size: 15px;
+}
+.icon{
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    justify-content: end;  
+}
+.all{
+    font-size: 20px;
+
+}
+.user{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    font-size: x-large;
+}
+.search{
+    font-size: x-large;
+    font-weight:100;
+}
+.cart{
+    font-size: x-large;
+}
+
+/*HEADER*/
+.text{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color:white;
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 20px;
+}
+
+/*HERO SECTION*/
+.shopnow{
+    background-image: url(/Images/homebg\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    background-size:  100%;
+}
+ .shopnow button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width:10%;
+    font-size: 25px;
+    padding: 4px;
+    text-align: center;
+    margin-top: 20px;
+  margin-left :300px;
+ 
+ }
+.shopnow h1{
+    text-align: center;
+    padding-top: 200px ;
+    padding-left: 300px;
+   
+}
+.shopnow p{
+    text-align: center;
+    padding-left: 450px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/*IMAGE SECTION */
+ .images{
+    height: 120px;
+    display: flex;
+    padding:70px;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+ .images .imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ /*SECOND IMAGE*/
+ .secimage{
+    height: 500px;
+    display:flex;
+    padding: 30px;
+    padding-top: 90px;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 80px;  
+ }
+.two h1 {
+    text-align:start;
+    margin-right: 95px;
+    
+}
+/* THIRD SLIDE*/
+.thirdimage{
+    margin-bottom: 100px;
+    display: flex;
+    padding:40px;
+    justify-content: space-evenly; 
+    height: 500px;
+    margin-bottom: 80px;
+    column-gap: 20px;
+    justify-content: center;
+ }
+
+/*FOURTH SLIDE*/
+.fourthimg{
+        background-image: url(/Images/xbos\ os\ bg.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+        padding-top: 90px;
+        margin-bottom: 30px;
+        background-size:  100%;
+    }
+    .ones{
+        margin-left: 300px ;
+    }
+     .fourthimg button{
+        background-color: black;
+        color: white;
+        height: 50px;
+        margin-top: 10px;
+        width:10%;
+        font-size: 25px;
+        padding: 5px;
+     
+     }
+    .fourthimg h1{
+    
+        padding-top: 200px ;
+        margin-bottom: 15px;
+        margin-top: 60;
+       
+    }
+    .fourthimg p{
+        font-size: 20px;
+        width:20%;
+        
+}
+
+/* FIFTH SLIDE*/
+  .work{
+    height: 800px;    
+    justify-content: center; 
+    padding-top: 90px;
+    margin-top: 10px;
+
+}
+.work1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap:20px;
+    padding-top: 50px;
+}
+.design p{
+    font-size: 19px;
+    padding: 4px;
+}
+.design p{
+    padding: 10px;
+
+}
+.work1 .design1{
+    padding: 50px;
+}
+.work span{
+    font-size: 20px;
+}
+
+/*SIXTH SLIDE*/
+.class{
+
+    height: 500px;
+    display:flex;
+    padding: 20px;
+    column-gap: 20px;
+    justify-content: center;
+  
+}
+/* SOCIALS*/
+.socials{
+    line-height: 35px;
+    padding-bottom: 90px;
+    padding-left: 40px;
+}
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+}
+.fa-facebook{
+    background: blue;
+    color: white;
+}
+.fa-twitter{
+    background-color: skyblue;
+    color:white;
+}
+.fa-youtube-play{
+    background-color: red;
+    color:white;
+}
+.fa-instagram{
+    background-color: lightslategray;
+    color: white;
+}
+
+/*FOOTER*/
+ .section{
+    width:100%;
+    background-color: gainsboro;
+    max-height: 1250px;
+    margin-top: 20px;
+    padding-bottom: 90px;
+ }
+.wrapper{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
+     text-align: center;
+    justify-content: center;
+   transform: scaleY(1.5);
+   
+     
+}
+.wrapper >div{
+    font-size: medium;
+    width: 100%; 
+}
+.wrapper >div h1{
+    font-size: 25px;
+    font-weight: 28;
+}
+.anotherwrapper{
+    display: flex;
+    grid-gap: 60px;
+    padding-top: 190px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+   transform: scaleY(1.5);
+   
+}
+.anotherwrapper >div{
+    width: 100%;
+    font-weight: medium;
+   
+}
+.anotherwrapper >div h1{
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+.footer1 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    padding-top: 100px;
+}
+.footer1 ul li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;   
+
+}
+.footer1 ul li a{
+    color: black;
+    text-decoration: none;
+
+
+}
+.fa-globe{
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.fa-copyright{
+    padding-top: 1px;
+}
+
+
+
+
+
+
+
+
+
